@@ -1,0 +1,8 @@
+sudo apt-get install nmap
+nmap ipadd   >using ip
+nmap www.google.com   >using hostname
+
+nmap -p 1-80 ipadd      >range of ports is 1 to 80
+sudo nmap -sN ipadd   >ping scan
+Sudo nmap -sA ipadd   >detect firewalls
+sudo nmap -sV ipadd    >version

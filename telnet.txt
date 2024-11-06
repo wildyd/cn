@@ -1,0 +1,9 @@
+sudo apt install telnetd
+
+sudo systemctl enable telnet
+sudo systemctl start telnet
+
+
+telnet ipadd
+top   …..>list batayega
+kill Pid(7008)

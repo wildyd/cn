@@ -1,0 +1,13 @@
+ping google.com
+ifconfig
+netstat -an
+nbtstat -a computer_name
+hostname
+systeminfo
+arp -a
+nslookup google.com
+traceroute google.com
+pingpath google.com
+getmac
+route print
+netdiag /v

@@ -1,0 +1,13 @@
+Install:
+sudo apt install vsftpd
+sudo systemctl enable vsftpd
+sudo systemctl start vsftpd
+sudo ufw allow ftp 
+
+Perform
+ftp ipaddress
+Id pass daalo
+
+ls    >show list
+put filename   >give file
+get filename   >take file
